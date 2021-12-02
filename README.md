@@ -1,3 +1,11 @@
+### Libraries Used: 
+
+Python Libraries: sys, re
+
+Other: Pandas, Numpy, Matplotlib, Seaborn, Scipy, ipywidgets, pymannkendall, TextBlob
+
+Please run Jupyter notebook cells sequentially. 
+
 # Data Science Project
 
 ### Simply put
