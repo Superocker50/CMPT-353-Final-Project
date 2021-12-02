@@ -1,15 +1,12 @@
 import pandas as pd 
 from google_play_scraper import Sort, reviews, app
 
-apps = pd.read_csv('Google Play Store Apps.zip')
-
-# Select 10000 random apps 
-apps = apps.sample(10000)
+apps = pd.read_csv(r'Apps Joined')
 
 app_ids = apps['App Id']
 
 app_reviews_df = pd.DataFrame(columns=['app_id', 'user_name', 'score', 'content', 'likes'])
-
+count=0
 # Inspired by https://www.kaggle.com/therealsampat/scraping-google-play-app-reviews/notebook#Scraping-App-Reviews
 for app in app_ids: 
     app_reviews, _ = reviews(
@@ -34,7 +31,9 @@ for app in app_ids:
                                       columns=['app_id', 'user_name', 'score', 'content', 'likes'])
                                       
             app_reviews_df = app_reviews_df.append(new_entry)
+            count +=1
+            print(count)
 
-app_reviews_df.to_csv('googleplaystore_reviews.csv')
+app_reviews_df.to_csv('google_app_reviews.csv')
 
 
