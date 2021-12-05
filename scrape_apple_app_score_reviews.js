@@ -5,14 +5,14 @@ let fs = require("fs");
 let app_ids = [
   "com.fanduel.scout",
   "co.mixcord.acapella",
-  "com.kinetic.fit",
-  "com.geniecompany.OHDAnywhere",
-  "com.pollardbanknote.PlayOnKS",
-  "com.ombiel.campusm.mdc",
-  "com.proxypics.app",
-  "com.lipsar.cannondemolition",
-  "subway.schoox",
-  "com.prime.on",
+  "com.mtvn.RateMyProfessors",
+  "com.atomiccu.ios1",
+  "com.punchh.smashburger",
+  "com.walottery.mobileapp",
+  "com.GPC.OCCMobile",
+  "com.axiemsystems.photoeditor",
+  "com.flolivingalisavitti.myfloapp",
+  "com.morganstanley.prod.SumSPC",
 ];
 
 let extract_on_page_reviews = (reviews, app_id) => {
