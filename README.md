@@ -2,7 +2,7 @@
 
 Python Libraries: sys, re
 
-Other: Pandas, Numpy, Matplotlib, Seaborn, Scipy, ipywidgets, pymannkendall, TextBlob
+Other: Pandas, Numpy, Matplotlib, Seaborn, Scipy, ipywidgets, pymannkendall, TextBlob, plotly
 
 Please run Jupyter notebook cells sequentially. 
 
