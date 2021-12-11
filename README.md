@@ -33,3 +33,10 @@ Python Libraries: sys, re
 Other: Pandas, Numpy, Matplotlib, Seaborn, Scipy, ipywidgets, pymannkendall, TextBlob, plotly
 
 Please run Jupyter notebook cells sequentially. 
+
+References 
+
+Google Play Store Data set: https://www.kaggle.com/gauthamp10/apple-appstore-apps
+Apple App Store Data set: https://www.kaggle.com/gauthamp10/google-playstore-apps
+Google Play Scraper Module: https://github.com/JoMingyu/google-play-scraper
+Apple App Store Scraper Library: https://github.com/facundoolano/app-store-scraper
